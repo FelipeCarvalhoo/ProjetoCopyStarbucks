@@ -200,3 +200,38 @@ header .line {
     margin-bottom:50px;
     line-height:25px;
 }
+
+/*Area 3*/
+
+.area3 {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3--content {
+    padding:2gff00px 80px;
+    background-image:url(../image/bg2.jpg);
+    background-size:cover;
+    background-position: left;
+}
+.area3--content h2 {
+    font-size: 25px;
+}
+
+.area3--img1 {
+    background-image:url(../image/f5.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.area3--text {
+    margin-bottom:50px;
+    line-height:25px;
+}
+
+/*Area4*/
+
+.area4 {
+    display:grid;
+    grid-template-columns:400px 1fr;
+}
